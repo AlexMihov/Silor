@@ -819,7 +819,7 @@ ul.social-list li:last-child a i {
 /*-- Main slide --*/
 
 #main-slide .item img{
-	width: 100%;
+	width: 100%;	
 }
 
 #main-slide .item .slider-content {
@@ -973,6 +973,17 @@ ul.social-list li:last-child a i {
 	-webkit-animation: lightSpeedIn 1s ease-in 200ms both;
 	animation: lightSpeedIn 1s ease-in 200ms both;
 }
+.carousel .item.active .animated2 > span{
+	background-color: rgba(255, 255, 255, 0.85);
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.carousel .item.active .animated3 > span{
+	background-color: rgba(255, 255, 255, 0.85);
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
 
 .carousel .item.active .animated3 {
 	-webkit-animation: bounceInLeft 1s ease-in-out 500ms both;
