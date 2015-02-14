@@ -1001,6 +1001,12 @@ ul.social-list li:last-child a i {
 	padding-left: 20px;
 }
 
+}
+.carousel .item.active .animated4 > span{
+	background-color: rgba(255, 255, 255, 0.85);
+	padding-right: 20px;
+	padding-left: 20px;
+}	
 .carousel .item.active .animated5 {
 	-webkit-animation: bounceInLeft 1s ease-in-out 100ms both;
 	animation: bounceInLeft 1s ease-in-out 100ms both;
