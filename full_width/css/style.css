@@ -978,22 +978,27 @@ ul.social-list li:last-child a i {
 	padding-right: 20px;
 	padding-left: 20px;
 }
-.carousel .item.active .animated3 > span{
-	background-color: rgba(255, 255, 255, 0.85);
-	padding-right: 20px;
-	padding-left: 20px;
-}
-
 
 .carousel .item.active .animated3 {
 	-webkit-animation: bounceInLeft 1s ease-in-out 500ms both;
 	animation: bounceInLeft 1s ease-in-out 500ms both;
 }
 
+.carousel .item.active .animated3 > span{
+	background-color: rgba(255, 255, 255, 0.85);
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
 .carousel .item.active .animated4 {
 	-webkit-animation: flipInX 1s ease-in 500ms both;
 	animation: flipInX 1s ease-in 500ms both;
     text-align: center;
+}
+.carousel .item.active .animated4 > span{
+	background-color: rgba(255, 255, 255, 0.85);
+	padding-right: 20px;
+	padding-left: 20px;
 }
 
 .carousel .item.active .animated5 {
